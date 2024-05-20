@@ -61,7 +61,7 @@
                 <strong class="imena"><?php echo $_SESSION["p3Score"];  ?></strong></br>
             </div>
             <div id ="redirekt">
-                <strong>Preusmerjeni boste čez<span id="time">10</span> sekund</strong>
+                <strong>You will be redirected in <span id="time">10</span> sec</strong>
             </div>
             
         </div>

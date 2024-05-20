@@ -32,7 +32,7 @@
                 <input type="text" name="playerthree" id="player3" maxlength="10" required>
             </div>
             <div class="num">
-                <strong>Stevilo kock</strong></br>
+                <strong>Number of dice</strong></br>
                 <select name="dNum" id="dNum">
                     <option value="1">One</option>
                     <option value="2">Two</option>
@@ -40,7 +40,7 @@
                 </select>
             </div>
             <div class="num">
-                <strong>Stevilo metov</strong></br>
+                <strong>Number of throws</strong></br>
                 <select name="rNum" id="rNum">
                     <option value="1">One</option>
                     <option value="2">Two</option>
@@ -50,7 +50,7 @@
                 </select>
             </div>
             <div class="num">
-                <button type="submit" id="ideGas" ><strong>Zacni</strong></button>
+                <button type="submit" id="ideGas" ><strong>Start</strong></button>
                 <input id="gumb" name="buttoun" style="display:none;">
             </div>
         </div>

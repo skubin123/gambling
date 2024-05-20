@@ -1,5 +1,9 @@
+@font-face {
+  font-family: barka;
+  src: url(../font/CoffeetinInitials-YXJ2.ttf);
+}
 body {
-  background-image: url("../images/odzadje4.jpg");
+  background-image: url("../images/odzadje5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -32,9 +36,9 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .naslov {
-  font-size: 40px;
-  font-family: "Comic Sans MS";
-  color:yellow;
+  font-size: 100px;
+  font-family: barka;
+  color:white;
 }
 
 hr {
@@ -55,33 +59,35 @@ select:focus {
   box-shadow: 0 1px 12px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 
-  background-color: gray;
-  /*opacity: 0.7;*/
+  background-color: white;
+  /*opacity: 0.9;*/
 }
 
 .player {
   margin: 5px;
   width: 250px;
   padding: 20px 10px;
-
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: inline-block;
   text-align: center;
-  color:red;
+  color:black;
 }
 
 .playerk {
   margin: 10px;
   width: 250px;
   padding: 20px;
-	font-family: "Comic Sans MS";
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: inline-block;
   text-align: center;
-  color:#d20202;
+  color:black;
 }
 #ideGas {
-  width: 80px;
-  color:blue;
-  background-color:#a58d00;
+  width: 100px;
+  color:white;
+  background-color:red;
+  font-size: 30px;
+  border-radius: 15px;
 }
 
 .num {
@@ -90,8 +96,8 @@ select:focus {
   width: 251px;
   padding: 20px;
   text-align: center;
-  color:#d20202;
-  font-family: "Comic Sans MS";
+  color:black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 input[type="text"] {
